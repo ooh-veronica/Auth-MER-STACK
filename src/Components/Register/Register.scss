@@ -1,0 +1,43 @@
+.register_container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.register_image {
+    height: 500px;
+    margin-left: 80px;
+}
+
+.register_form{
+    height: 500px;
+    width: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 17, 17, 0.5);
+    margin-right: 80px;
+}
+
+.register_form h3 {
+    padding-bottom: 20px;
+}
+
+.register_form h2 {
+    padding-bottom: 40px;
+}
+
+.register_input{
+    width: 300px;
+    height: 30px;
+}
+
+.register_button {
+    display: flex;
+    align-items: center;
+    padding: 8px 40px;
+    box-shadow: 0 0 10px rgba(0, 17, 17, 0.5);
+    cursor: pointer;
+    font-size: 14px;
+}
